@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    color: white;
 }
 
 .app__navbar-links li{
@@ -31,7 +32,7 @@
 }
 
 .app__navbar-links li:hover{
-    background-color: red;
+    color: var(--color-grey);
 }
 
 .app__navbar-login{
